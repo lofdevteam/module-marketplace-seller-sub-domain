@@ -1,0 +1,21 @@
+{
+  "name": "landofcoder/module-subdomain",
+  "description": "Enable sub domain for Vendor. Eg: seller1.yourdomain.com, seller2.yourdomain.com",
+  "require": {
+    "landofcoder/module-marketplace":"*"
+  },
+  "type": "magento2-module",
+  "version": "2.0.1",
+  "license": [
+   "EULA"
+  ],
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "Lofmp\\SubDomain\\": ""
+      }
+  }
+ }
+
